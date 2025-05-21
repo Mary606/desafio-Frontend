@@ -34,6 +34,50 @@ export default function Home() {
           />
         </div>
       </main>
+      <section className='mt-20 mb-20'>
+        <h2 className='text-center text-4xl md:text-5xl font-bold text-cyan-800  mb-10'>O que a Lacrei oferece?</h2>
+        <div id='card' className='flex items-stretch'>
+          <div className='card w-1/3 bg-gray-100 p-10 rounded-lg py-4 mt-10 mr-10 flex flex-col items-center text-center'>
+            <Image
+              src="/professional.svg"
+              alt="Profissional de saúde"
+              width={80}
+              height={80}
+              className="mb-4"
+            />
+            <h3 className='text-2xl font-bold text-teal-800'>Acesso a profissionais qualificados</h3>
+            <p className='text-gray-600 mt-4'>
+              Encontre profissionais de saúde especializados em diversas áreas, com avaliações de pacientes e feedbacks detalhados.
+            </p>
+          </div>
+          <div className='card w-1/3 bg-gray-100 p-10 rounded-lg py-4 mt-10 mr-10 flex flex-col items-center text-center'>
+            <Image
+              src="/inclusion.svg"
+              alt="Inclusão e diversidade"
+              width={80}
+              height={80}
+              className="mb-4"
+            />
+            <h3 className='text-2xl font-bold text-teal-800'>Inclusão e representatividade</h3>
+            <p className='text-gray-600 mt-4'>
+              Garantimos a inclusão e representatividade de todos, independente de origem, gênero, orientação sexual ou etnia.
+            </p>
+          </div>
+          <div className='card w-1/3 bg-gray-100 p-10 rounded-lg py-4 mt-10 flex flex-col items-center text-center'>
+            <Image
+              src="/security.svg"
+              alt="Segurança e privacidade"
+              width={80}
+              height={80}
+              className="mb-4"
+            />
+            <h3 className='text-2xl font-bold text-teal-800'>Segurança e privacidade</h3>
+            <p className='text-gray-600 mt-4'>
+              Garantimos a segurança e a privacidade de suas informações, com um ambiente seguro e protegido.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

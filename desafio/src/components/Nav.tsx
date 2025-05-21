@@ -13,7 +13,7 @@ export default function Nav() {
         alt="Lacrei Saúde"
         width={170}
         height={48}
-        className="h-8 w-auto drop-shadow(2px 4px 6px rgba(0, 255, 0, 0.6))"
+        className="h-8 w-auto drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.6))"
       />
       
       {/* Botão do menu mobile */}
@@ -51,17 +51,17 @@ export default function Nav() {
     className="flex flex-col md:flex-row gap-4 md:items-center md:justify-end w-full p-0 text-base max-md:mt-2 mr-8"
   >
     <li>
-      <a href="#" className="text-white hover:text-cyan-100 transition-colors">
+      <a href="#" className="text-white hover:text-cyan-100 transition-colors font-bold">
         Profissionais de Saúde
       </a>
     </li>
     <li>
-      <a href="#" className="text-white hover:text-cyan-100 transition-colors">
+      <a href="#" className="text-white hover:text-cyan-100 transition-colors font-bold">
         Nossa Missão
       </a>
     </li>
     <li>
-      <a href="#" className="text-white hover:text-cyan-100 transition-colors">
+      <a href="#" className="text-white hover:text-cyan-100 transition-colors font-bold">
         FAQ
       </a>
     </li>
